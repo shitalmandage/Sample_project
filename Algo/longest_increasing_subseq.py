@@ -15,9 +15,9 @@ def LIS(L,S):
             if L[i]>=L[j] and S[i]<=S[j]:
                 S[i]=1+S[j]
                 A[i]=j
-    #print (L)
-    #print (S)
-    #print (A)
+    print (L)
+    print (S)
+    print (A)
     n=max(S)
     #print (n)
     ind=S.index(n)
