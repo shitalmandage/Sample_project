@@ -1,0 +1,13 @@
+n=int(input().strip())
+arr=[int(i) for i in input().strip().split(' ')]
+
+
+t=int(input().strip())
+for i in range(t):
+	n=int(input().strip())
+	arr=[int(i) for i in input().strip().split(' ')]
+
+t=int(input().strip())
+for i in range(t):
+    n,m = input().strip().split(' ')
+    n,m = [int(n),int(m)]
